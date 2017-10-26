@@ -130,7 +130,7 @@ S3_OUTPUT_BUCKET: pcftim-terraform
 ERT_DOMAIN: pcftim.cf-training.net
 
 # Route53 zone to add records to
-ROUTE_53_ZONE_ID:
+ROUTE_53_ZONE_ID: pcftim.cf-training.net
 
 # Cert will be generated if left empty
 ERT_SSL_CERT:
