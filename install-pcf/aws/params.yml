@@ -17,8 +17,7 @@ git_private_key: |
   pYaBl72erjxdePCg9khyg5HoEKPQLJjHIZT7nVyVpM6+rcR0xBMbhGcq54/u0Os0
   vJjKpOnDx0gpdTTYI9VlMfG9Kdr9d5oENeI6FYYm30OHVxLpZmVqBYQuRfNrJl6/
   WPuiUEGXeAsqA1WcUTb7u703Yij7eSG/cY4tqYhM5B4N7my94lLdjqJjG+fFnQ36
-  m+ktgor6B80Y1lxWUp+a2KLtTmGQwGWIBFVeBXXuVKFW9AvuvPBdzfxLcWDjrV1K
-  +RGpoXJJieHBPPD+HMLWu0eXFaxYk2bd7TwdRfiTKS5LAgARy7fABltV892rH9/m
+  m+ktgor6B80Y1lxWUp++RGpoXJJieHBPPD+HMLWu0eXFaxYk2bd7TwdRfiTKS5LAgARy7fABltV892rH9/m
   coGwPEZxB7SZoBEY+3MJVN/MON3saYytVks+EErgcZiOROv89V2UEl6PYPod09o1
   F3KnJ5EdM8CqwtvP701eb4IyLzK4uhfeyvxUnuHhR2T7aRZGe7qPiEvMxgGdUZK9
   rWiahAOwUrRLRQvKBZdlSlP4xZoS39NNZ7zuN296JxJCzE62CKIZZApohCltr2Nt
@@ -118,19 +117,19 @@ TF_VAR_aws_cert_arn: arn:aws:iam::754058048930:server-certificate/pcftim
 TF_VAR_amis_nat: ami-303b1458
 
 TF_VAR_aws_region: us-east-1
-TF_VAR_az1: us-east-1a
-TF_VAR_az2: us-east-1b
-TF_VAR_az3: us-east-1d
+TF_VAR_az1: us-east-1b
+TF_VAR_az2: us-east-1d
+TF_VAR_az3: us-east-1e
 
 # For terraform state file
 S3_ENDPOINT: https://s3.amazonaws.com
 S3_OUTPUT_BUCKET: pcftim-terraform
 
 # The ERT domain to use; *.cfapps.<ert-domain> and *.sys.<ert-domain> will be used
-ERT_DOMAIN: pcftim.cf-training.net
+ERT_DOMAIN: cf-training.net
 
 # Route53 zone to add records to
-ROUTE_53_ZONE_ID: pcftim.cf-training.net
+ROUTE_53_ZONE_ID: cf-training.net
 
 # Cert will be generated if left empty
 ERT_SSL_CERT:
