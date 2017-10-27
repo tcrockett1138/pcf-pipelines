@@ -1,5 +1,5 @@
 pivnet_token: vd2sDF3JnEeuMzxsXVhW
-git_private_key:
+#git_private_key:
 
 opsman_major_minor_version: ^1\.12\..*$
 ert_major_minor_version: ^1\.12\..*$
