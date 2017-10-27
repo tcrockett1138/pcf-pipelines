@@ -3,4 +3,3 @@ config
 *.iml
 .idea
 *.sw[po]
-install-pcf/aws/params.yml
