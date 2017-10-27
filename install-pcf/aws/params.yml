@@ -21,8 +21,8 @@ ert_major_minor_version: ^1\.12\..*$
 ert_errands_to_disable: none
 
 # RDS Master Credentials
-db_master_username:
-db_master_password:
+db_master_username: admin
+db_master_password: Password123!
 
 # ERT Database Credentials
 db_app_usage_service_username:
