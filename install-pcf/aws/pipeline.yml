@@ -219,7 +219,7 @@ jobs:
       resource: pivnet-elastic-runtime
       params:
         globs:
-        - "srt*.pivotal"
+        - "cf*.pivotal"
     - get: terraform-state
       trigger: true
       passed: [deploy-director]
